@@ -1,4 +1,15 @@
-node_modules
-dist
+# logs
+
 logs
+*.log
+npm-debug.log*
+
+# modules 
+node_modules
+
+# dist
+dist
+
+# ts intermediate files
 .tsbuildinfo
+tsconfig.tsbuildinfo
