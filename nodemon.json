@@ -1,0 +1,7 @@
+{
+    "verbose": false,
+    "delay": 200,
+    "execMap": {
+        "ts": "ts-node-esm -T"
+    }
+}
