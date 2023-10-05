@@ -1,4 +1,6 @@
+import "dotenv/config";
 import logger from "./logger";
+import env from "@helpers/env";
 
 
-logger.debug("hello world");
+logger.debug(`Hello ${env("NAME")}!`);

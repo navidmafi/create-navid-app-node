@@ -2,6 +2,6 @@
     "verbose": false,
     "delay": 200,
     "execMap": {
-        "ts": "ts-node-esm -T"
+        "ts": "node --loader ./loader.js src/index.ts"
     }
 }

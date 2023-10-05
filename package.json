@@ -1,6 +1,6 @@
 {
   "name": "create-navid-app-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,12 +13,15 @@
   "type": "module",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.7.1",
+    "@swc/core": "^1.3.92",
+    "@types/node": "^20.8.2",
     "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "winston": "^3.10.0"
   }
 }
